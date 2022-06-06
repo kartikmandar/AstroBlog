@@ -1,0 +1,23 @@
+.contact-content {
+    height: 495px;
+    height: 90vh;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url(../img/contact.png);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+    padding-bottom: 20px;
+}
+
+.contact-form {}

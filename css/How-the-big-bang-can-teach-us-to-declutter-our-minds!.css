@@ -1,0 +1,78 @@
+.post-img {
+    height: 60vh;
+    overflow: hidden;
+    /* margin-top: 20px; */
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.How-the-big-bang-can-teach-us-to-declutter-our-minds-content {}
+
+.How-the-big-bang-can-teach-us-to-declutter-our-minds-content-left {
+    font-family: var(--font1);
+    /* width: 50%; */
+    padding-right: 10px;
+    padding: 25px;
+    z-index: 1;
+}
+
+.How-the-big-bang-can-teach-us-to-declutter-our-minds-content-left h1 {
+    text-align: center;
+}
+
+.How-the-big-bang-can-teach-us-to-declutter-our-minds-content-right {
+    /* width: 50%; */
+
+
+}
+
+.olbers {
+    display: flex;
+}
+
+.olbers-left img {
+    width: 30vw;
+    margin: 30px;
+    border-radius: 5px;
+
+}
+
+.olbers-right {
+    padding: 40px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+i {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.andromeda {
+    width: 40vw;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.welcome-post-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-info {
+    margin: 12px 0px;
+}
+
+.author-info div {
+    padding: 2px 0px;
+    font-family: var(--font2);
+    color: darkgray;
+}
+
+.social {
+    align-self: center;
+    padding-right: 20px;
+    cursor: pointer;
+}

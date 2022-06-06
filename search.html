@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <title>Astro Blog</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/index.html" style="text-decoration: none; color: black;">
+                <span>AstroBlog</span></a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article Search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+
+    </nav>
+    <!-- <div class="max-width-1 m-auto">
+        <hr>
+    </div> -->
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="home-articles max-width-1 m-auto my-2">
+        <h2>Search Results for posts (0.03 seconds)</h2>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/welcome.jpeg" alt="Welcome Post">
+            </div>
+
+            <div class="home-article-content font1">
+                <a href="welcome-post.html">
+                    <h3>Welcome post</h3>
+                </a>
+                <p><span>Kartik Mandar</span></p>
+                <span>26th May | 2 min read</span>
+
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/bigbang.jpeg" alt="Big Bang">
+            </div>
+
+            <div class="home-article-content font1">
+                <a href="How-the-big-bang-can-teach-us-to-declutter-our-minds!.html">
+                    <h3>How the big bang can teach us to declutter our minds!</h3>
+                </a>
+                <p><span>Kartik Mandar</span></p>
+                <span>27th May | 20 min read</span>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; AstroBlog.com</p>
+        <a href="https://unsplash.com/photos/TwG3vThQS9Y">Photo Credits</a>
+    </div>
+</body>
+
+</html>
